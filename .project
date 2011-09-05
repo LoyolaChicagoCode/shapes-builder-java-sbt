@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ShapesBuilder</name>
+	<name>shapes-builder-java</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
+			<name>shapes-builder-java</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
