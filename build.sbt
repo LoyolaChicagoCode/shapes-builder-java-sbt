@@ -1,4 +1,4 @@
-name := "misc-java-sbt"
+name := "shapes-builder-java-sbt"
 
 version := "0.1"
 
