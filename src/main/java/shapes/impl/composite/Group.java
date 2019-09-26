@@ -15,7 +15,7 @@ class Group implements shapes.common.Group {
 	}
 	
 	@Override
-	public List<Shape> getChildren() {
+	public List<? extends Shape> getChildren() {
 		return shapes;
 	}
 	

@@ -35,11 +35,11 @@ public class Equals {
 				((Location) s1).getY() == ((Location) s2).getY() &&  
 				equals(((Location) s1).getChild(), ((Location) s2).getChild());
 		if (s1 instanceof Group && s2 instanceof Group) {
-			final List<Shape> l1 = ((Group) s1).getChildren(); 
-			final List<Shape> l2 = ((Group) s2).getChildren(); 
+			final List<? extends Shape> l1 = ((Group) s1).getChildren();
+			final List<? extends Shape> l2 = ((Group) s2).getChildren();
 			if (l1.size() != l2.size()) return false;
-			final Iterator<Shape> i1 = l1.iterator();
-			final Iterator<Shape> i2 = l2.iterator();
+			final Iterator<? extends Shape> i1 = l1.iterator();
+			final Iterator<? extends Shape> i2 = l2.iterator();
 			while (i1.hasNext()) {
 				final Shape q1 = i1.next();
 				final Shape q2 = i2.next();
