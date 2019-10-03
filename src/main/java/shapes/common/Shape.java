@@ -1,8 +1,6 @@
 package shapes.common;
 
-/**
- * A graphical shape.
- */
+/** A graphical shape. */
 public interface Shape {
-	<Result> Result accept(Visitor<Result> v);
+  <Result> Result accept(Visitor<Result> v);
 }

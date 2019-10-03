@@ -1,9 +1,8 @@
 package shapes.common;
 
-/**
- * A Cartesian point.
- */
+/** A Cartesian point. */
 public interface Point {
-	int getX();
-	int getY();
+  int getX();
+
+  int getY();
 }
